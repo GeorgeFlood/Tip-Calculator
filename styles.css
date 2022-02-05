@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Poppins:ital,wght@1,200&display=swap');
+
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+header {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.container {
+    min-height: 75vh;
+    margin-top: 5rem;
+    border: solid white 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.container h3 {
+    padding-left: 1.8rem;
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.486)
+}
+
+.inputs {
+    font-size: 1.3rem;
+}
+
+.inputs input {
+    display: block;
+    margin: 1rem auto;
+    min-width: 90%;
+    height: 5rem;
+    background-color: hsla(0, 0%, 85%, 0.384);
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    color: rgb(22, 95, 61)
+}
+
+.buttons {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.inputs button {
+    width: 10.3rem;
+    height: 3rem;
+    margin: .5rem 3.5rem;
+    font-weight: 700;
+    font-size: 1.9rem;
+    cursor: pointer;
+    background-color: hsl(183, 100%, 15%);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+}
+
+.results {
+    margin-top: 5rem;
+    height: 25rem;
+    padding: 3rem 0;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 1rem;
+}
+
+.results button {
+    display: block;
+    margin: 5rem auto;
+    height: 5rem;
+    min-width: 90%;
+    font-size: 1.9rem;
+    background-color: hsl(172, 67%, 45%);
+    border-radius: .7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.amount {
+    font-size: 1.5rem;
+    margin-bottom: 2.2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.total {
+    font-size: 1.5rem;
+    margin-bottom: 2.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    box-shadow: 0 5px rgb(3, 58, 32);
+}
+
+button:hover {
+    background-color: hsl(172, 67%, 45%);
+}
+
+button:active {
+    color: black;
+    background-color: #ffffff;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.results h3 {
+    color: hsl(172, 67%, 45%);
+    font-size: 2.4rem;
+    font-weight: bold;
+}
